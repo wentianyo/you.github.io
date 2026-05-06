@@ -32,7 +32,7 @@ let app = {
             })
 
             $.ajax({
-                url: "https://api.wentianplay.com/api/sites.json",
+                url: "https://api.wentianplay.com/api/you.json",
                 type: "get",
                 dataType: "json",
                 success: function (data) {
